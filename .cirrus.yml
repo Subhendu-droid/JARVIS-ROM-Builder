@@ -1,8 +1,8 @@
 task:
-  name: "JARVIS Rom Build"
+  name: "JARVIS Rom"
   timeout_in: 240m  
   container:
-      image: ubuntu:20.04
+      image: marvelmathesh/docker:rom
       cpu: 8
       memory: 32G
 
